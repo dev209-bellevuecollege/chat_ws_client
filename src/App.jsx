@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 import './App.css';
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT = 'https://chat-ws-backend.onrender.com/';
 
 function App() {
   const [socket, setSocket] = useState(null);
